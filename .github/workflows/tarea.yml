@@ -1,0 +1,9 @@
+on: push
+jobs:
+    build-node:
+      runs-on: ubuntu-latest
+      container: cassandra
+      steps:
+        - run: echo "Tarea 8"
+        - run: cqlsh show
+        - run: echo "Proceso terminado"
