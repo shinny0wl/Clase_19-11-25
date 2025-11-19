@@ -1,0 +1,22 @@
+{
+  "name": "clase_19-11-25",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinny0wl/Clase_19-11-25.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shinny0wl/Clase_19-11-25/issues"
+  },
+  "homepage": "https://github.com/shinny0wl/Clase_19-11-25#readme",
+  "description": "",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
