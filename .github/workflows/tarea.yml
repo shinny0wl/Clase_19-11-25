@@ -2,8 +2,8 @@ on: push
 jobs:
     build-node:
       runs-on: ubuntu-latest
-      container: cassandra
+      container: mongo
       steps:
         - run: echo "Tarea 8"
-        - run: cqlsh -e "DESCRIBE KEYSPACES"
+        - run: mongod --version
         - run: echo "Proceso terminado"
