@@ -2,7 +2,7 @@ on: push
 jobs:
     build-node:
       runs-on: ubuntu-latest
-      container: cassandra:latest
+      container: cassandra
       steps:
         - run: echo "Tarea 8"
         - run: cqlsh localhost
