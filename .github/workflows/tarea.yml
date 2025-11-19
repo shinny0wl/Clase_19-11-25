@@ -5,5 +5,5 @@ jobs:
       container: cassandra
       steps:
         - run: echo "Tarea 8"
-        - run: cqlsh localhost
+        - run: cqlsh show version 
         - run: echo "Proceso terminado"
